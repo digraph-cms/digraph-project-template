@@ -1,6 +1,6 @@
 # Digraph Project Template
 
-Composer project for building Digraph sites in the recommended fashion. Get started with "composer create-project byjoby/digraph-project"
+Composer project for building Digraph sites in the recommended fashion. Get started with `composer create-project digraphcms/digraph-project` 
 
 ## File/folder structure
 
