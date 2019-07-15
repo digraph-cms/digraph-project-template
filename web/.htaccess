@@ -9,7 +9,7 @@
   DirectoryIndex index.php
   RewriteEngine on
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^([^?]*)$ index.php?digraph_url= [NC,L,QSA]
+  RewriteRule ^([^?]*)$ index.php?digraph_url=$1 [NC,L,QSA]
 </IfModule>
 
 # END DIGRAPH-MANAGED: HTACCESS

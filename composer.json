@@ -6,14 +6,14 @@
     "authors": [
         {
             "name": "Joby Elliott",
-            "email": "code@byjoby.com"
+            "email": "digraph@byjoby.com"
         }
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "byjoby/digraph-core": "dev-master",
-        "byjoby/digraph-project-core": "dev-master",
+        "digraphcms/digraph-core": "dev-master",
+        "digraphcms/digraph-project-core": "dev-master",
         "oomphinc/composer-installers-extender": "^1.1"
     },
     "autoload": {
