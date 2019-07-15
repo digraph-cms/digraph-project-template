@@ -7,6 +7,13 @@ composer.lock
 /digraph/core/
 /digraph/modules/
 
+# note that web/ is not ignored, this does mean that some
+# code managed by DigraphProject\ScriptHandler is tracked,
+# but it's better to allow tracking the other contents of
+# the web root, in case owners want to serve static files
+/web/index.php
+/web/.htaccess
+
 # keep storage and cache out of git
 /digraph/cache/
 /digraph/storage/
@@ -14,7 +21,7 @@ composer.lock
 # explicitly disallow tracking digraph-debug-module
 # this is so you can just manually install the debug module
 # on your dev environment and never accidentally commit it
-/modules/digraph-debug-module/
+/modules/digraph_debug_module/
 
 # ignore environment config
 env.yaml
