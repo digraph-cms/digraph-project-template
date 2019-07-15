@@ -1,5 +1,5 @@
 {
-    "name": "byjoby/digraph-project",
+    "name": "digraphcms/digraph-project",
     "description": "Composer project for building Digraph sites in the recommended fashion. Get started with \"composer create-project byjoby/digraph-project\"",
     "type": "project",
     "license": "MIT",
