@@ -1,0 +1,15 @@
+# BEGIN DIGRAPH-MANAGED: HTACCESS
+# Do not edit this code, it will be replaced whenever composer update/install runs
+
+
+# digraph-project-core/files/htaccess => web/.htaccess
+
+# rewriting to redirect urls to digraph
+<IfModule mod_rewrite.c>
+  DirectoryIndex index.php
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^?]*)$ index.php?digraph_url= [NC,L,QSA]
+</IfModule>
+
+# END DIGRAPH-MANAGED: HTACCESS
