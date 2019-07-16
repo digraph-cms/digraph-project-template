@@ -1,7 +1,5 @@
 # BEGIN DIGRAPH-MANAGED: HTACCESS
 # Do not edit this code, it will be replaced whenever composer update/install runs
-
-
 # digraph-project-core/files/htaccess => web/.htaccess
 
 # rewriting to redirect urls to digraph

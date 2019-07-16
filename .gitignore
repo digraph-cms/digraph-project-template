@@ -2,16 +2,8 @@
 # depending on your deploy system, you may not want this
 composer.lock
 
-# note that web/ is not ignored, this does mean that some
-# code managed by DigraphProject\ScriptHandler is tracked,
-# but it's better to allow tracking the other contents of
-# the web root, in case owners want to serve static files
-/web/index.php
-
 # BEGIN DIGRAPH-MANAGED: GITIGNORE
 # Do not edit this code, it will be replaced whenever composer update/install runs
-
-
 # digraph-project-core/files/gitignore => .gitignore
 
 # keep everything installed by composer out of git
