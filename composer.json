@@ -12,8 +12,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "digraphcms/digraph-core": "dev-master",
-        "digraphcms/digraph-project-core": "dev-master",
+        "digraphcms/digraph-project-core": "~1",
         "oomphinc/composer-installers-extender": "^1.1"
     },
     "autoload": {
@@ -22,8 +21,7 @@
         ]
     },
     "config": {
-        "vendor-dir": "digraph/vendor/",
-        "sort-packages": true
+        "vendor-dir": "digraph/vendor/"
     },
     "extra": {
         "installer-types": [
