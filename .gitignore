@@ -7,19 +7,17 @@ composer.lock
 # digraph-project-core/files/gitignore => .gitignore
 
 # keep everything installed by composer out of git
-/digraph/vendor/
-/digraph/core/
-/digraph/modules/
+/vendor
 
 # keep storage and cache out of git
-/digraph/cache/
-/digraph/storage/
+/cache
+/storage
 
 # explicitly disallow tracking digraph-debug-module
 # this is so you can just manually install the debug module
 # on your dev environment and never accidentally commit it
-/modules/digraph_debug_module
-/modules/digraph-debug-module
+/modules/digraph_debug_module/
+/modules/digraph-debug-module/
 
 # ignore environment config
 env.yaml
