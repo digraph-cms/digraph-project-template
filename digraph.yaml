@@ -2,7 +2,7 @@
 package:
   defaults:
     fields:
-      site_name: New site
+      site_name: New Digraph site
 
 # Specify a time zone if you want to override your server's default
 # timezone: America/Denver
