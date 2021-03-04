@@ -6,4 +6,5 @@ If you're going to be using a module on more than one site you should *not* buil
 
 ## Debugging module
 
-If you install the debug module here (`git clone git@gitlab.com:byjoby/digraph-debug-module.git`) it will be excluded by the default .gitignore file. This is to make using the debug module on development environments both easy and safer.
+If you install the debug module here (`git clone git@github.com:jobyone/digraph_debug_module.git`) it will be excluded by the default .gitignore file. This is to make using the debug module on development environments both easy and safer.
+
