@@ -12,7 +12,8 @@ composer.lock
 # keep storage, cache, and assets out of git
 /cache
 /storage
-/web/assets
+/web/assets/*
+!/web/assets/.htaccess
 
 # explicitly disallow tracking digraph-debug-module
 # this is so you can just manually install the debug module
